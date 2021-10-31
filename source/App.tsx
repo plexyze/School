@@ -1,17 +1,34 @@
+import {
+    ALPHABET_PAGE_ROUTE,
+    COLORS_PAGE_ROUTE,
+    FIGURES_PAGE_ROUTE,
+    HOME_PAGE_ROUTE,
+    MATH_PAGE_ROUTE,
+    NUMBERS_PAGE_ROUTE,
+} from 'constants/routes';
 import React, { FunctionComponent } from 'react';
-import classnames from 'classnames/bind';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { Button } from 'ui-kit';
-import styles from './App.module.scss';
-
-const cn = classnames.bind(styles);
-const CLASS_NAME = 'App';
+import { AppLayout } from 'layouts/AppLayout';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { HomePage } from 'routes/HomePage';
+import { MathPage } from 'routes/MathPage';
+import { FiguresPage } from 'routes/FiguresPage';
+import { NumbersPage } from 'routes/NumbersPage';
+import { AlphabetPage } from 'routes/AlphabetPage';
+import { ColorsPage } from 'routes/ColorsPage';
 
 const App: FunctionComponent = () => {
     return (
         <Router>
-            <Button text="Button" />
-            <div className={cn(CLASS_NAME)}>Hello world!</div>
+            <AppLayout>
+                <Switch>
+                    <Route exact path={HOME_PAGE_ROUTE} component={HomePage} />
+                    <Route exact path={MATH_PAGE_ROUTE} component={MathPage} />
+                    <Route exact path={FIGURES_PAGE_ROUTE} component={FiguresPage} />
+                    <Route exact path={NUMBERS_PAGE_ROUTE} component={NumbersPage} />
+                    <Route exact path={ALPHABET_PAGE_ROUTE} component={AlphabetPage} />
+                    <Route exact path={COLORS_PAGE_ROUTE} component={ColorsPage} />
+                </Switch>
+            </AppLayout>
         </Router>
     );
 };
