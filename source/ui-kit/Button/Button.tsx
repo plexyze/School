@@ -9,8 +9,13 @@ export type ButtonPropsType = {
     text?: string;
 };
 
-export const Button: FunctionComponent<ButtonPropsType> = ({ text = '' }) => {
-    return <button className={cn(CLASS_NAME)}>{text}</button>;
+export const Button: FunctionComponent<ButtonPropsType> = ({ text = '', children }) => {
+    return (
+        <button className={cn(CLASS_NAME)}>
+            {text}
+            {children}
+        </button>
+    );
 };
 
 Button.displayName = 'Button';
