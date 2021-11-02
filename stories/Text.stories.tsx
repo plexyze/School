@@ -10,7 +10,7 @@ export default {
     args: {
         text: 'Hi freinds',
         color: 'yellow',
-        decore: 'large',
+        size: 'large',
     },
 } as Meta;
 

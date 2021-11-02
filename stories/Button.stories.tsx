@@ -9,6 +9,8 @@ export default {
     argTypes: {},
     args: {
         text: 'Button',
+        color: 'green',
+        size: 'large',
     },
 } as Meta;
 
