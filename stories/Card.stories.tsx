@@ -7,9 +7,7 @@ export default {
     background: '#EFEEEE',
     component: Card,
     argTypes: {},
-    args: {
-        text: 'Hi freinds',
-    },
+    args: {},
 } as Meta;
 
 export const Simple: Story<CardPropsType> = (args) => <Card {...args} />;

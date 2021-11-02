@@ -9,13 +9,8 @@ export type CardPropsType = {
     text: string;
 };
 
-export const Card: FunctionComponent<CardPropsType> = ({ text = '', children }) => {
-    return (
-        <div className={cn(CLASS_NAME)}>
-            {text}
-            {children}
-        </div>
-    );
+export const Card: FunctionComponent<CardPropsType> = ({ children }) => {
+    return <span className={cn(CLASS_NAME)}>{children}</span>;
 };
 
 Card.displayName = 'Card';
