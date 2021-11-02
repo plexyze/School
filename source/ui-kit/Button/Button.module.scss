@@ -1,61 +1,60 @@
 .Button {
-  width: auto;
   height: 32px;
   border-radius: 4px;
 }
 .-gray{
   background-color: #b3b3b3;
-  border: solid #b3b3b3 2px;
+  border: solid #b3b3b3 1px;
   color: #000;
 
 }
 .-black{
   background-color: #000000;
-  border: solid #000000 2px;
+  border: solid #000000 1px;
   color: rgb(255, 255, 255);
 }
 .-red{
   background-color: #ff1100;
-  border: solid #ff1100 2px;
+  border: solid #ff1100 1px;
   color: rgb(255, 255, 255);
 }
 .-green{
   background-color: rgb(0, 255, 0);
-  border: solid rgb(0, 255, 0) 2px;
+  border: solid rgb(0, 255, 0) 1px;
   color: rgb(0, 0, 0);
 }
 .-blue{
   background-color: #0011ff;
-  border: solid #0011ff 2px;
+  border: solid #0011ff 1px;
   color: rgb(255, 255, 255);
 }
 .-gray:hover{
   background-color: #d3d3d3;
-  border: solid #d3d3d3 2px;
+  border: solid #d3d3d3 1px;
   color: #000;
 
 }
 .-black:hover{
   background-color: #494949;
-  border: solid #494949 2px;
+  border: solid #494949 1px;
   color: rgb(255, 255, 255);
 
 }
 .-red:hover{
   background-color: #cc0000;
-  border: solid #cc0000 2px;
+  border: solid #cc0000 1px;
   color: rgb(255, 255, 255);
 
 }
 .-green:hover{
   background-color: #40ca00;
-  border: solid #40ca00 2px;
+  border: solid #40ca00 1px;
   color: #000;
 
 }
 .-blue:hover{
   background-color: #606bff;
-  border: solid #606bff 2px;
+  border: solid #606bff 1px;
   color: rgb(255, 255, 255);
 
 }

@@ -14,13 +14,21 @@ export type ButtonPropsType = {
     size: ButtonSizes;
 };
 
-export const Button: FunctionComponent<ButtonPropsType> = ({ text = '', color, size }) => {
+export const Button: FunctionComponent<ButtonPropsType> = ({
+    text = '',
+    color,
+    size,
+    children,
+}) => {
     return (
-        <input
+        <button
             type="reset"
             value={text}
             className={cn(CLASS_NAME, BUTTON_COLORS[color], BUTTON_SIZES[size])}
-        ></input>
+        >
+            {text}
+            {children}
+        </button>
     );
 };
 
