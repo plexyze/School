@@ -22,6 +22,7 @@ const config = {
         // Add `.ts` and `.tsx` as a resolvable extension.
         extensions: ['.ts', '.tsx', '.js'],
         alias: {
+            assets: path.join(__dirname, 'source/assets'),
             components: path.join(__dirname, 'source/components'),
             constants: path.join(__dirname, 'source/constants'),
             layouts: path.join(__dirname, 'source/layouts'),

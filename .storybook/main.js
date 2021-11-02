@@ -13,6 +13,12 @@ module.exports = {
   webpackFinal: async (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,
+      assets: path.join(__dirname, '../source/assets'),
+      components: path.join(__dirname, '../source/components'),
+      constants: path.join(__dirname, '../source/constants'),
+      layouts: path.join(__dirname, '../source/layouts'),
+      routes: path.join(__dirname, '../source/routes'),
+      styles: path.join(__dirname, '../source/styles'),
       'ui-kit': path.join(__dirname, '../source/ui-kit'),
     }
 
