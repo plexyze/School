@@ -10,4 +10,4 @@ export default {
     args: {},
 } as Meta;
 
-export const Simple: Story<CardPropsType> = (args) => <Card {...args} />;
+export const Simple: Story<CardPropsType> = () => <Card>Карточка</Card>;

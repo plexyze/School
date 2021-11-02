@@ -6,11 +6,11 @@ const cn = classNames.bind(styles);
 const CLASS_NAME = 'Card';
 
 export type CardPropsType = {
-    text: string;
+    className?: string;
 };
 
-export const Card: FunctionComponent<CardPropsType> = ({ children }) => {
-    return <span className={cn(CLASS_NAME)}>{children}</span>;
+export const Card: FunctionComponent<CardPropsType> = ({ className, children }) => {
+    return <span className={cn(CLASS_NAME, className)}>{children}</span>;
 };
 
 Card.displayName = 'Card';
