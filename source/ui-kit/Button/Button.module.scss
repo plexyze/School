@@ -1,3 +1,70 @@
 .Button {
-  width: 200px;
+  width: auto;
+  height: 32px;
+  border-radius: 4px;
+}
+.-gray{
+  background-color: #b3b3b3;
+  border: solid #b3b3b3 2px;
+  color: #000;
+
+}
+.-black{
+  background-color: #000000;
+  border: solid #000000 2px;
+  color: rgb(255, 255, 255);
+}
+.-red{
+  background-color: #ff1100;
+  border: solid #ff1100 2px;
+  color: rgb(255, 255, 255);
+}
+.-green{
+  background-color: rgb(0, 255, 0);
+  border: solid rgb(0, 255, 0) 2px;
+  color: rgb(0, 0, 0);
+}
+.-blue{
+  background-color: #0011ff;
+  border: solid #0011ff 2px;
+  color: rgb(255, 255, 255);
+}
+.-gray:hover{
+  background-color: #d3d3d3;
+  border: solid #d3d3d3 2px;
+  color: #000;
+
+}
+.-black:hover{
+  background-color: #494949;
+  border: solid #494949 2px;
+  color: rgb(255, 255, 255);
+
+}
+.-red:hover{
+  background-color: #cc0000;
+  border: solid #cc0000 2px;
+  color: rgb(255, 255, 255);
+
+}
+.-green:hover{
+  background-color: #40ca00;
+  border: solid #40ca00 2px;
+  color: #000;
+
+}
+.-blue:hover{
+  background-color: #606bff;
+  border: solid #606bff 2px;
+  color: rgb(255, 255, 255);
+
+}
+.-button-large{
+  height: 40px;
+}
+.-button-medium{
+  height: 32px;
+}
+.-button-small{
+  height: 24px;
 }
