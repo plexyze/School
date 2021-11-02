@@ -10,7 +10,7 @@ export default {
     args: {
         text: 'Button',
         color: 'green',
-        decor: 'large',
+        size: 'large',
     },
 } as Meta;
 
