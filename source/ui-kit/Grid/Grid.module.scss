@@ -1,0 +1,9 @@
+.Grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.-isList{
+  flex-direction: column;
+  align-items: flex-start;
+}
