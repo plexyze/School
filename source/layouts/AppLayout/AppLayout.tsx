@@ -10,14 +10,18 @@ const CLASS_NAME = 'AppLayout';
 
 const AppLayout: FunctionComponent = ({ children }) => {
     return (
-        <div className={cn(CLASS_NAME)}>
-            <Sidebar />
-            <div className={cn(`${CLASS_NAME}__right`)}>
-                <Header />
-                <div className={cn(`${CLASS_NAME}__content`)}>{children}</div>
-                <Footer />
+        <>
+            <div className={cn(CLASS_NAME)}>
+                <Sidebar />
+                <div className={cn(`${CLASS_NAME}__right`)}>
+                    <Header />
+                    <div className={cn(`${CLASS_NAME}__content`)}>
+                        <div className={cn(`${CLASS_NAME}__children`)}>{children}</div>
+                        <Footer />
+                    </div>
+                </div>
             </div>
-        </div>
+        </>
     );
 };
 
