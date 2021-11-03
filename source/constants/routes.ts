@@ -4,3 +4,7 @@ export const FIGURES_PAGE_ROUTE = '/figures';
 export const NUMBERS_PAGE_ROUTE = '/numbers';
 export const ALPHABET_PAGE_ROUTE = '/alphabet';
 export const COLORS_PAGE_ROUTE = '/colors';
+export const ADDITION_PAGE_ROUTE = '/math/addition';
+export const SUBTRACTION_PAGE_ROUTE = '/math/subtraction';
+export const MULTIPLICATION_PAGE_ROUTE = '/math/multiplication';
+export const DIVISION_PAGE_ROUTE = '/math/division';

@@ -22,7 +22,7 @@ const App: FunctionComponent = () => {
             <AppLayout>
                 <Switch>
                     <Route exact path={HOME_PAGE_ROUTE} component={HomePage} />
-                    <Route exact path={MATH_PAGE_ROUTE} component={MathPage} />
+                    <Route path={MATH_PAGE_ROUTE} component={MathPage} />
                     <Route exact path={FIGURES_PAGE_ROUTE} component={FiguresPage} />
                     <Route exact path={NUMBERS_PAGE_ROUTE} component={NumbersPage} />
                     <Route exact path={ALPHABET_PAGE_ROUTE} component={AlphabetPage} />
