@@ -2,9 +2,30 @@
     min-height: 100%;
     width:250px ;
     border:solid black 1px;
+    background-color: rgb(255, 251, 235);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 1rem;
     gap:1rem;
+    font-size: 24px;
+    &_icon{
+        border-radius: 4px;
+        background: rgb(187, 255, 255);
+        width: 164px;
+        border: solid gray 1px;
+    }
+    &_icon:hover{
+        border-radius: 4px;
+        background: rgb(138, 187, 187);
+        width: 167px;
+        height: 40px;
+        border: solid gray 1px;
+    }
+    &_logo{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(37, 59, 255);
+        width: 167px;
+        height: 40px;
+    }
 }

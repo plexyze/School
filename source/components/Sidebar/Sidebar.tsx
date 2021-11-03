@@ -18,27 +18,38 @@ const CLASS_NAME = 'Sidebar';
 export const Sidebar: FunctionComponent = () => {
     return (
         <div className={cn(CLASS_NAME)}>
-            <Link to={HOME_PAGE_ROUTE}>
+            <Link className={cn(`${CLASS_NAME}_logo`)} to={HOME_PAGE_ROUTE}>
+                <Icon iconName="school" />
+                School
+            </Link>
+
+            <Link className={cn(`${CLASS_NAME}_icon`)} to={HOME_PAGE_ROUTE}>
                 <Icon iconName="home" />
+                Главная
             </Link>
-            <Link to={MATH_PAGE_ROUTE}>
+            <Link className={cn(`${CLASS_NAME}_icon`)} to={MATH_PAGE_ROUTE}>
                 <Icon iconName="math" />
+                Математика
             </Link>
-            <Link to={FIGURES_PAGE_ROUTE}>
+            <Link className={cn(`${CLASS_NAME}_icon`)} to={FIGURES_PAGE_ROUTE}>
                 {' '}
                 <Icon iconName="figurs" />
+                Фигуры
             </Link>
-            <Link to={NUMBERS_PAGE_ROUTE}>
+            <Link className={cn(`${CLASS_NAME}_icon`)} to={NUMBERS_PAGE_ROUTE}>
                 {' '}
                 <Icon iconName="number" />
+                Числа
             </Link>
-            <Link to={ALPHABET_PAGE_ROUTE}>
+            <Link className={cn(`${CLASS_NAME}_icon`)} to={ALPHABET_PAGE_ROUTE}>
                 {' '}
                 <Icon iconName="letters" />
+                Алфавит
             </Link>
-            <Link to={COLORS_PAGE_ROUTE}>
+            <Link className={cn(`${CLASS_NAME}_icon`)} to={COLORS_PAGE_ROUTE}>
                 {' '}
                 <Icon iconName="colors" />
+                Цвета
             </Link>
         </div>
     );
