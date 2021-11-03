@@ -11,15 +11,30 @@ export type TextSizes = keyof typeof TEXT_SIZES;
 export type TextDecor = keyof typeof TEXT_DECORS;
 
 export type TextPropsType = {
+    className?: string;
     text: string;
-    color: TextColor;
-    size: TextSizes;
-    decor: TextDecor;
+    color?: TextColor;
+    size?: TextSizes;
+    decor?: TextDecor;
 };
 
-export const Text: FunctionComponent<TextPropsType> = ({ text, color, size, decor }) => {
+export const Text: FunctionComponent<TextPropsType> = ({
+    className,
+    text,
+    color = 'black',
+    size = 'large',
+    decor = 'small-caps',
+}) => {
     return (
-        <span className={cn(CLASS_NAME, TEXT_COLORS[color], TEXT_SIZES[size], TEXT_DECORS[decor])}>
+        <span
+            className={cn(
+                CLASS_NAME,
+                TEXT_COLORS[color],
+                TEXT_SIZES[size],
+                TEXT_DECORS[decor],
+                className
+            )}
+        >
             {text}
         </span>
     );

@@ -1,6 +1,7 @@
 .Button {
   height: 32px;
   border-radius: 4px;
+  padding: 8px;
 }
 .-gray{
   background-color: #b3b3b3;
@@ -59,11 +60,11 @@
 
 }
 .-button-large{
-  height: 40px;
+  height: 48px;
 }
 .-button-medium{
-  height: 32px;
+  height: 40px;
 }
 .-button-small{
-  height: 24px;
+  height: 32px;
 }

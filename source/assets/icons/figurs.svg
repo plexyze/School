@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 32 32"
+   xml:space="preserve"
+   width="32"
+   height="32"
+   sodipodi:docname="figurs.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs35" /><sodipodi:namedview
+   id="namedview33"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="9.0875"
+   inkscape:cx="27.510316"
+   inkscape:cy="26.629986"
+   inkscape:window-width="1920"
+   inkscape:window-height="1019"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1"
+   width="79px" />
+<g
+   id="g8"
+   transform="matrix(0.36042253,0,0,0.36042253,1.2791549,1.2791549)">
+	<path
+   style="fill:#bae0bd"
+   d="M 18,33.5 C 9.453,33.5 2.5,26.547 2.5,18 2.5,9.453 9.453,2.5 18,2.5 c 8.547,0 15.5,6.953 15.5,15.5 0,8.547 -6.953,15.5 -15.5,15.5 z"
+   id="path2" />
+	<g
+   id="g6">
+		<path
+   style="fill:#5e9c76"
+   d="M 18,3 C 26.271,3 33,9.729 33,18 33,26.271 26.271,33 18,33 9.729,33 3,26.271 3,18 3,9.729 9.729,3 18,3 M 18,2 C 9.163,2 2,9.163 2,18 2,26.837 9.163,34 18,34 26.837,34 34,26.837 34,18 34,9.163 26.837,2 18,2 Z"
+   id="path4" />
+	</g>
+</g>
+<g
+   id="g16"
+   transform="matrix(0.36042253,0,0,0.36042253,1.2791549,1.2791549)">
+	<path
+   style="fill:#bae0bd"
+   d="M 18,77.5 C 9.453,77.5 2.5,70.547 2.5,62 2.5,53.453 9.453,46.5 18,46.5 c 8.547,0 15.5,6.953 15.5,15.5 0,8.547 -6.953,15.5 -15.5,15.5 z"
+   id="path10" />
+	<g
+   id="g14">
+		<path
+   style="fill:#5e9c76"
+   d="m 18,47 c 8.271,0 15,6.729 15,15 0,8.271 -6.729,15 -15,15 C 9.729,77 3,70.271 3,62 3,53.729 9.729,47 18,47 m 0,-1 C 9.163,46 2,53.163 2,62 2,70.837 9.163,78 18,78 26.837,78 34,70.837 34,62 34,53.163 26.837,46 18,46 Z"
+   id="path12" />
+	</g>
+</g>
+<g
+   id="g24"
+   transform="matrix(0.36042253,0,0,0.36042253,1.2791549,1.2791549)">
+	<path
+   style="fill:#bae0bd"
+   d="m 62,77.5 c -8.547,0 -15.5,-6.953 -15.5,-15.5 0,-8.547 6.953,-15.5 15.5,-15.5 8.547,0 15.5,6.953 15.5,15.5 0,8.547 -6.953,15.5 -15.5,15.5 z"
+   id="path18" />
+	<g
+   id="g22">
+		<path
+   style="fill:#5e9c76"
+   d="m 62,47 c 8.271,0 15,6.729 15,15 0,8.271 -6.729,15 -15,15 -8.271,0 -15,-6.729 -15,-15 0,-8.271 6.729,-15 15,-15 m 0,-1 c -8.837,0 -16,7.163 -16,16 0,8.837 7.163,16 16,16 8.837,0 16,-7.163 16,-16 0,-8.837 -7.163,-16 -16,-16 z"
+   id="path20" />
+	</g>
+</g>
+<g
+   id="g30"
+   transform="matrix(0.36042253,0,0,0.36042253,1.2791549,1.2791549)">
+	<rect
+   x="48.5"
+   y="4.5"
+   style="fill:#8bb7f0"
+   width="27"
+   height="27"
+   id="rect26" />
+	<path
+   style="fill:#4e7ab5"
+   d="M 75,5 V 31 H 49 V 5 H 75 M 76,4 H 48 v 28 h 28 z"
+   id="path28" />
+</g>
+</svg>

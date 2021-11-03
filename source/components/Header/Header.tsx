@@ -6,7 +6,7 @@ const cn = classnames.bind(styles);
 const CLASS_NAME = 'Header';
 
 const Header: FunctionComponent = () => {
-    return <header className={cn(CLASS_NAME)}>header</header>;
+    return <header className={cn(CLASS_NAME)}></header>;
 };
 
 export { Header };
