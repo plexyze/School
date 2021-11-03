@@ -9,7 +9,7 @@ import {
 import React, { FunctionComponent } from 'react';
 import classnames from 'classnames/bind';
 import { Link } from 'react-router-dom';
-import { Icon } from 'ui-kit';
+import { IconButton } from 'ui-kit/IconButton';
 import styles from './Sidebar.module.scss';
 
 const cn = classnames.bind(styles);
@@ -18,38 +18,27 @@ const CLASS_NAME = 'Sidebar';
 export const Sidebar: FunctionComponent = () => {
     return (
         <div className={cn(CLASS_NAME)}>
-            <Link className={cn(`${CLASS_NAME}_logo`)} to={HOME_PAGE_ROUTE}>
-                <Icon iconName="school" />
-                School
+            <Link to={HOME_PAGE_ROUTE}>
+                <IconButton className={cn(`${CLASS_NAME}_icon`)} iconName="home" text="Главная" />
             </Link>
-
-            <Link className={cn(`${CLASS_NAME}_icon`)} to={HOME_PAGE_ROUTE}>
-                <Icon iconName="home" />
-                Главная
+            <Link to={MATH_PAGE_ROUTE}>
+                <IconButton
+                    className={cn(`${CLASS_NAME}_icon`)}
+                    iconName="math"
+                    text="Математика"
+                />
             </Link>
-            <Link className={cn(`${CLASS_NAME}_icon`)} to={MATH_PAGE_ROUTE}>
-                <Icon iconName="math" />
-                Математика
+            <Link to={FIGURES_PAGE_ROUTE}>
+                <IconButton className={cn(`${CLASS_NAME}_icon`)} iconName="figurs" text="Фигуры" />
             </Link>
-            <Link className={cn(`${CLASS_NAME}_icon`)} to={FIGURES_PAGE_ROUTE}>
-                {' '}
-                <Icon iconName="figurs" />
-                Фигуры
+            <Link to={NUMBERS_PAGE_ROUTE}>
+                <IconButton className={cn(`${CLASS_NAME}_icon`)} iconName="number" text="Числа" />
             </Link>
-            <Link className={cn(`${CLASS_NAME}_icon`)} to={NUMBERS_PAGE_ROUTE}>
-                {' '}
-                <Icon iconName="number" />
-                Числа
+            <Link to={ALPHABET_PAGE_ROUTE}>
+                <IconButton className={cn(`${CLASS_NAME}_icon`)} iconName="letters" text="Буквы" />
             </Link>
-            <Link className={cn(`${CLASS_NAME}_icon`)} to={ALPHABET_PAGE_ROUTE}>
-                {' '}
-                <Icon iconName="letters" />
-                Алфавит
-            </Link>
-            <Link className={cn(`${CLASS_NAME}_icon`)} to={COLORS_PAGE_ROUTE}>
-                {' '}
-                <Icon iconName="colors" />
-                Цвета
+            <Link to={COLORS_PAGE_ROUTE}>
+                <IconButton className={cn(`${CLASS_NAME}_icon`)} iconName="colors" text="Цвета" />
             </Link>
         </div>
     );

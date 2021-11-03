@@ -7,12 +7,13 @@ const cn = classNames.bind(styles);
 const CLASS_NAME = 'Icon';
 export type IconName = keyof typeof ICONS;
 export type IconPropsType = {
+    className?: string;
     iconName: IconName;
 };
 
-export const Icon: FunctionComponent<IconPropsType> = ({ iconName }) => {
+export const Icon: FunctionComponent<IconPropsType> = ({ className, iconName }) => {
     const SvgIcon: any = ICONS[iconName];
-    return <SvgIcon className={cn(CLASS_NAME)} src={ICONS[iconName]} />;
+    return <SvgIcon className={cn(CLASS_NAME, className)} src={ICONS[iconName]} />;
 };
 
 Icon.displayName = 'Icon';
