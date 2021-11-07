@@ -1,0 +1,22 @@
+.LvlCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 160px;
+  height: 240px;
+
+  &__text{
+    height: 132px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__title-text{
+    margin-top: 8px;
+    text-align: center;
+  }
+  &__normal-text{
+    text-align: left;
+  }
+}
+

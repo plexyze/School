@@ -12,9 +12,6 @@ export const TEXT_SIZES = {
     caption: '-text-caption',
 };
 export const TEXT_DECORS = {
-    oblique: '-oblique',
     italic: '-italic',
-    'small-caps': '-small-caps',
     bold: '-bold',
-    bolder: '-bolder',
 };
