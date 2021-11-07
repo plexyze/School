@@ -21,8 +21,8 @@ export type TextPropsType = {
 export const Text: FunctionComponent<TextPropsType> = ({
     className,
     text,
-    color = 'black',
-    size = 'large',
+    color = 'primary-text',
+    size = 'medium',
     decor = 'small-caps',
 }) => {
     return (
