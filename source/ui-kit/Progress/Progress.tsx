@@ -10,10 +10,10 @@ export type ProgressColor = keyof typeof PROGRESS_COLORS;
 export type ProgressPropsType = {
     value: number;
     max: number;
-    color: ProgressColor;
+    color?: ProgressColor;
 };
 
-export const Progress: FunctionComponent<ProgressPropsType> = ({ value, max, color }) => {
+export const Progress: FunctionComponent<ProgressPropsType> = ({ value, max, color = 'green' }) => {
     const carr = (value * 100) / max;
     return (
         <div className={cn(CLASS_NAME)}>
