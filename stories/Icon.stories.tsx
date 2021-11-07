@@ -8,7 +8,8 @@ export default {
     component: Icon,
     argTypes: {},
     args: {
-        iconName: 'school',
+        iconName: 'update',
+        color: 'primary',
     },
 } as Meta;
 
