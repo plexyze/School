@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 .Text {
   font-size: 80px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
 }
 .-primary-text{
   color: #354041;
@@ -37,20 +37,14 @@
   line-height: 1rem;
   font-size: 0.75rem;
 }
-.-oblique{
-  font-style:oblique;
-}
+
 .-italic{
   font-style:italic;
 }
-.-small-caps{
-  font-variant:small-caps;
-}
+
 .-bold{
   font-weight:bold;
 }
-.-bolder{
-  font-weight: bolder;
-}
+
 
 
