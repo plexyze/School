@@ -1,9 +1,6 @@
 export const TEXT_COLORS = {
-    gray: '-gray',
-    black: '-black',
-    yellow: '-yellow',
-    blue: '-blue',
-    red: '-red',
+    'primary-text': '-primary-text',
+    'secondary-text': '-secondary-text',
 };
 export const TEXT_SIZES = {
     'title-large': '-text-title-large',
