@@ -1,4 +1,5 @@
 export * from './Button';
+export * from './IconButton';
 export * from './Text';
 export * from './Card';
 export * from './LvlCard';

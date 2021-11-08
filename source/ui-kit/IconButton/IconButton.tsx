@@ -2,12 +2,9 @@ import classNames from 'classnames/bind';
 import React, { FunctionComponent } from 'react';
 import { Button, Icon, IconName, Text } from 'ui-kit';
 import styles from './IconButton.module.scss';
-import { BUTTON_COLORS, BUTTON_SIZES } from './_constants';
 
 const cn = classNames.bind(styles);
 const CLASS_NAME = 'IconButton';
-export type ButtonColor = keyof typeof BUTTON_COLORS;
-export type ButtonSizes = keyof typeof BUTTON_SIZES;
 
 export type IconButtonPropsType = {
     iconName: IconName;
