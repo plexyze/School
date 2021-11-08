@@ -19,26 +19,22 @@ export const Sidebar: FunctionComponent = () => {
     return (
         <div className={cn(CLASS_NAME)}>
             <Link to={HOME_PAGE_ROUTE}>
-                <IconButton className={cn(`${CLASS_NAME}_icon`)} iconName="home" text="Главная" />
+                <IconButton iconName="home" text="Главная" />
             </Link>
             <Link to={MATH_PAGE_ROUTE}>
-                <IconButton
-                    className={cn(`${CLASS_NAME}_icon`)}
-                    iconName="math"
-                    text="Математика"
-                />
+                <IconButton iconName="math" text="Математика" />
             </Link>
             <Link to={FIGURES_PAGE_ROUTE}>
-                <IconButton className={cn(`${CLASS_NAME}_icon`)} iconName="figurs" text="Фигуры" />
+                <IconButton iconName="figurs" text="Фигуры" />
             </Link>
             <Link to={NUMBERS_PAGE_ROUTE}>
-                <IconButton className={cn(`${CLASS_NAME}_icon`)} iconName="numbers" text="Числа" />
+                <IconButton iconName="numbers" text="Числа" />
             </Link>
             <Link to={ALPHABET_PAGE_ROUTE}>
-                <IconButton className={cn(`${CLASS_NAME}_icon`)} iconName="alphabet" text="Буквы" />
+                <IconButton iconName="alphabet" text="Буквы" />
             </Link>
             <Link to={COLORS_PAGE_ROUTE}>
-                <IconButton className={cn(`${CLASS_NAME}_icon`)} iconName="colors" text="Цвета" />
+                <IconButton iconName="colors" text="Цвета" />
             </Link>
         </div>
     );
