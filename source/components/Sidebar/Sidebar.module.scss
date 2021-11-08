@@ -2,7 +2,7 @@
     min-height: 100%;
     width:250px ;
     border:solid black 1px;
-    background-color: #edeffe;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
 
@@ -15,7 +15,6 @@
         padding: 5px;
         border-radius: 4px;
         background: rgb(187, 255, 255);
-        width: 174px;
         border: solid gray 1px;
     }
     &_icon:hover{
