@@ -1,15 +1,18 @@
 .Button {
-  height: 32px;
+  height: 40px;
   border-radius: 4px;
+  align-items: center;
   padding: 8px;
+  display: flex;
+  &_text{
+    margin-left : 8px;
+  }
 }
 .-primary{
   background-color: #76E9E9;
-  color: #354041;
 
 }
 .-secondary{
   background-color: #CADBD7;
-  color: #446C6F;
 }
 
