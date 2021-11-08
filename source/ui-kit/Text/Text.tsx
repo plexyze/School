@@ -23,7 +23,7 @@ export const Text: FunctionComponent<TextPropsType> = ({
     text,
     color = 'primary-text',
     size = 'medium',
-    decor = 'small-caps',
+    decor = 'bold',
 }) => {
     return (
         <span

@@ -3,62 +3,18 @@
   border-radius: 4px;
   padding: 8px;
 }
-.-gray{
-  background-color: #b3b3b3;
+.-primary{
+  background-color: #76E9E9;
   border: solid #b3b3b3 1px;
-  color: #000;
+  color: #354041;
 
 }
-.-black{
-  background-color: #000000;
+.-secondary{
+  background-color: #CADBD7;
   border: solid #000000 1px;
-  color: rgb(255, 255, 255);
+  color: #446C6F;
 }
-.-red{
-  background-color: #ff1100;
-  border: solid #ff1100 1px;
-  color: rgb(255, 255, 255);
-}
-.-green{
-  background-color: rgb(0, 255, 0);
-  border: solid rgb(0, 255, 0) 1px;
-  color: rgb(0, 0, 0);
-}
-.-blue{
-  background-color: #0011ff;
-  border: solid #0011ff 1px;
-  color: rgb(255, 255, 255);
-}
-.-gray:hover{
-  background-color: #d3d3d3;
-  border: solid #d3d3d3 1px;
-  color: #000;
 
-}
-.-black:hover{
-  background-color: #494949;
-  border: solid #494949 1px;
-  color: rgb(255, 255, 255);
-
-}
-.-red:hover{
-  background-color: #cc0000;
-  border: solid #cc0000 1px;
-  color: rgb(255, 255, 255);
-
-}
-.-green:hover{
-  background-color: #40ca00;
-  border: solid #40ca00 1px;
-  color: #000;
-
-}
-.-blue:hover{
-  background-color: #606bff;
-  border: solid #606bff 1px;
-  color: rgb(255, 255, 255);
-
-}
 .-button-large{
   height: 48px;
 }

@@ -1,5 +1,6 @@
 import classNames from 'classnames/bind';
 import React, { FunctionComponent } from 'react';
+import { Text } from 'ui-kit';
 import styles from './Button.module.scss';
 import { BUTTON_COLORS, BUTTON_SIZES } from './_constants';
 
@@ -18,9 +19,8 @@ export type ButtonPropsType = {
 export const Button: FunctionComponent<ButtonPropsType> = ({
     className,
     text = '',
-    color = 'gray',
+    color = 'primary',
     size = 'small',
-    children,
 }) => {
     return (
         <button
@@ -28,8 +28,7 @@ export const Button: FunctionComponent<ButtonPropsType> = ({
             value={text}
             className={cn(CLASS_NAME, BUTTON_COLORS[color], BUTTON_SIZES[size], className)}
         >
-            {text}
-            {children}
+            <Text text="кнопка" />
         </button>
     );
 };

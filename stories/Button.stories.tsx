@@ -9,7 +9,7 @@ export default {
     argTypes: {},
     args: {
         text: 'Button',
-        color: 'green',
+        color: 'primary',
         size: 'large',
     },
 } as Meta;

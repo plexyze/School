@@ -21,7 +21,7 @@ export const LvlCard: FunctionComponent<LvlCardPropsType> = ({ className }) => {
                 <Text text="Дата:" size="small" className={cn(`${CLASS_NAME}__normal-text`)} />
             </div>
 
-            <IconButton className={cn(`${CLASS_NAME}__iconButton`)} iconName="home" text="Играть" />
+            <IconButton className={cn(`${CLASS_NAME}__iconButton`)} iconName="play" text="Играть" />
         </Card>
     );
 };

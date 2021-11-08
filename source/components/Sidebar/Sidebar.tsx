@@ -32,7 +32,7 @@ export const Sidebar: FunctionComponent = () => {
                 <IconButton className={cn(`${CLASS_NAME}_icon`)} iconName="figurs" text="Фигуры" />
             </Link>
             <Link to={NUMBERS_PAGE_ROUTE}>
-                <IconButton className={cn(`${CLASS_NAME}_icon`)} iconName="number" text="Числа" />
+                <IconButton className={cn(`${CLASS_NAME}_icon`)} iconName="numbers" text="Числа" />
             </Link>
             <Link to={ALPHABET_PAGE_ROUTE}>
                 <IconButton className={cn(`${CLASS_NAME}_icon`)} iconName="alphabet" text="Буквы" />
