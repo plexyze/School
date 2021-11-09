@@ -4,7 +4,6 @@ import styles from './Card.module.scss';
 
 const cn = classNames.bind(styles);
 const CLASS_NAME = 'Card';
-
 export type CardPropsType = {
     className?: string;
 };
