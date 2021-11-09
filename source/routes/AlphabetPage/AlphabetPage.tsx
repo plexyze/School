@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import { Grid } from 'ui-kit';
+import { Grid } from 'ui-kit/Grid';
 
 export const AlphabetPage: FunctionComponent = () => {
     const element = (index: number) => <h1>{`Index: ${index}`}</h1>;

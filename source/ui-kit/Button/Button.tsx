@@ -1,35 +1,53 @@
 import classNames from 'classnames/bind';
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, MouseEvent } from 'react';
+import { Icon, IconName } from 'ui-kit/Icon';
+import { Text } from 'ui-kit/Text';
 import styles from './Button.module.scss';
-import { BUTTON_COLORS, BUTTON_SIZES } from './_constants';
+import { BUTTON_COLORS } from './_constants';
 
 const cn = classNames.bind(styles);
 const CLASS_NAME = 'Button';
 export type ButtonColor = keyof typeof BUTTON_COLORS;
-export type ButtonSizes = keyof typeof BUTTON_SIZES;
+
+export type ButtonEvent = {
+    id?: string;
+    event: MouseEvent<HTMLButtonElement>;
+};
 
 export type ButtonPropsType = {
     className?: string;
-    text?: string;
+    iconName: IconName;
+    text: string;
     color?: ButtonColor;
-    size?: ButtonSizes;
+    id?: string;
+    onClick?: (e: ButtonEvent) => void;
 };
 
 export const Button: FunctionComponent<ButtonPropsType> = ({
     className,
-    text = '',
-    color = 'gray',
-    size = 'small',
-    children,
+    iconName,
+    text,
+    color,
+    id,
+    onClick,
 }) => {
+    const handleClick = (event: MouseEvent<HTMLButtonElement>) => {
+        onClick && onClick({ id: event.currentTarget.id, event });
+    };
+
+    let buttonColor = BUTTON_COLORS['primary'];
+    if (color && color in BUTTON_COLORS) {
+        buttonColor = BUTTON_COLORS[color];
+    }
+
     return (
         <button
-            type="reset"
-            value={text}
-            className={cn(CLASS_NAME, BUTTON_COLORS[color], BUTTON_SIZES[size], className)}
+            id={id}
+            onClick={handleClick}
+            className={cn(CLASS_NAME, buttonColor.style, className)}
         >
-            {text}
-            {children}
+            <Icon iconName={iconName} />
+            <Text text={text} className={cn(`${CLASS_NAME}_text`)} color={buttonColor.textColor} />
         </button>
     );
 };

@@ -14,4 +14,5 @@ export const TEXT_SIZES = {
 export const TEXT_DECORS = {
     italic: '-italic',
     bold: '-bold',
+    normal: '-normal',
 };

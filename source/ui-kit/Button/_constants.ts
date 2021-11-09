@@ -1,12 +1,11 @@
-export const BUTTON_COLORS = {
-    gray: '-gray',
-    black: '-black',
-    green: '-green',
-    blue: '-blue',
-    red: '-red',
+import { TextColor } from 'ui-kit/Text';
+
+type ButtonColorVariant = {
+    style: string;
+    textColor: TextColor;
 };
-export const BUTTON_SIZES = {
-    large: '-button-large',
-    medium: '-button-medium',
-    small: '-button-small',
+
+export const BUTTON_COLORS = {
+    primary: { style: '-primary', textColor: 'primary-text' } as ButtonColorVariant,
+    secondary: { style: '-secondary', textColor: 'secondary-text' } as ButtonColorVariant,
 };

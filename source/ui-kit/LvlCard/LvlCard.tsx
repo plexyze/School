@@ -1,7 +1,8 @@
 import classNames from 'classnames/bind';
 import React, { FunctionComponent } from 'react';
-import { Card, Text } from 'ui-kit';
-import { IconButton } from 'ui-kit/IconButton';
+import { Button } from 'ui-kit/Button';
+import { Card } from 'ui-kit/Card';
+import { Text } from 'ui-kit/Text';
 import styles from './LvlCard.module.scss';
 
 const cn = classNames.bind(styles);
@@ -21,7 +22,7 @@ export const LvlCard: FunctionComponent<LvlCardPropsType> = ({ className }) => {
                 <Text text="Дата:" size="small" className={cn(`${CLASS_NAME}__normal-text`)} />
             </div>
 
-            <IconButton className={cn(`${CLASS_NAME}__iconButton`)} iconName="home" text="Играть" />
+            <Button className={cn(`${CLASS_NAME}__iconButton`)} iconName="play" text="Играть" />
         </Card>
     );
 };
